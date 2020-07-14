@@ -1,0 +1,164 @@
+body{
+	width: 1200px;
+	margin: 10px auto;
+	padding: 15px;
+	border: 1px solid black;
+	overflow-x:auto;
+}		
+
+    	
+.row{
+	height: 120px;
+	background-color: ;
+}
+
+.period{
+	height: 120px;
+	width: 1%;
+	background-color: #006400;
+	float: left;
+}
+
+.left{ 
+	height: 120px;
+	width: 5.5%;
+	box-sizing: border-box;
+	border:1px solid black;
+	float: left;
+}
+
+.right{ 
+	height: 120px;
+	width: 5.5%;
+	box-sizing: border-box;
+	border:1px solid black;
+	float: right;
+}
+
+#color1{
+	background-color: #8080ff;
+}
+
+#color2{
+	background-color: #00e6b8;
+}
+
+#color3{
+	background-color: #cce6ff;
+}
+
+#color4{
+	background-color: #aa80ff; 
+}
+
+#color5{
+	background-color: #FFFF00;
+}
+
+#color6{
+	background-color: #ff9999;
+}
+
+#color7{
+	background-color: #00cc44;
+}
+
+.number{
+	width: 30%;
+	height: 16px;
+	background-color: #000066;	
+	color: white;
+	float: left;
+}
+
+
+.weight{
+	width: 70%;
+	height:13px;
+	padding-top:3px;
+	background-color: none;
+	text-align: center;
+		float:right;
+		font-size: 10px;
+}
+
+p{
+	margin: 4px 2px;
+	font-size: 9px;
+}
+
+#p_center{
+	text-align: center;
+}
+
+#p_right{
+	text-align: right;
+	font-size: 11px;
+}
+
+#p_simbol{
+	font-size: 23px;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#p_name{
+	text-transform: uppercase;
+}
+
+a:link{
+	color: black;
+}
+
+a:visited{
+	color: #4169E1;
+}
+
+a:hover{
+    color:green;
+}
+
+a:active{
+    color:pink;
+}
+
+
+
+.group{
+	height: 19px;
+	width: 5.5%;
+	background-color: #006400;
+	display: inline-flex;
+	color: white;
+}
+
+#g1{
+	position: relative; left: 1%;
+}
+
+#g18{
+	float: right;
+}
+
+#g2-12{
+	position: relative; top:101px; 
+	float: left;
+}
+
+#g13-17{
+	position: relative; top: 101px;
+	float: right;
+}
+
+
+.legend{ 
+		position: relative; top: -19px;
+	height: 19px;
+	width: 55%;
+	display: inline-flex;
+}
+
+#text_format{
+	text-transform: uppercase;
+	font-size: 25px;
+	position: relative; left: 130px;
+}
